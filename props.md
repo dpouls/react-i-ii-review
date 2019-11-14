@@ -3,15 +3,17 @@
 Answer these on your own, then compare answers as a group
 
 1.  What are props?
-
-2.  How do you pass props from a parent to a child?
-
+      data passed between components
+2.  How do you pass props from a parent to a child? 
+ <ChildComponent propName=''/>  
 3.  How do you access props from a class based child component?
-
+      this.props
 4.  How do you access props from a functional component?
 
+    {props.propName} in Child component make sure props is an argument
+      
 5.  How do you bind a function to a parent component so that it can be passed to a child?
-
+       this.answerQuestion = this.answerQuestion.bind(this);
 ### Understand
 
 Discuss this question in pairs if you have a 4-person group

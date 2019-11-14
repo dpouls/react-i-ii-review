@@ -4,15 +4,28 @@ Answer these on your own, then compare answers as a group
 
 1.  What is React?
 
+    React is a library.
+
 2.  What is create-react-app?
+
+    gives you all the files you need in a react app and puts it all into one folder
 
 3.  What is Component Based Architecture?
 
+    Components allow you to organize data and methods in a more organized fashion. 
+
 4.  What is JSX?
 
-5.  What is the virtual DOM?
+    Not HTML but basically. Javascript syntax extension.
+
+5.  What is the virtual DOM?  
+
+    It only changes the parts that are relevant. A "mediator" between you and the DOM
 
 6.  What is unidirectional (one-way) data flow?
+
+    parent-> child
+
 
 ### Understand
 
@@ -37,6 +50,8 @@ const Mentor = props => (
 
 export default Mentor;
 ```
+
+CHECK
 
 9.  Explain how data is passed from a parent component to a child component.
 
